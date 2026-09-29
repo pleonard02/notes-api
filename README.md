@@ -2,7 +2,7 @@
 
 A REST API built with Node.js, Express, MongoDB, and Mongoose for storing private notes. Users register or log in to receive a JSON Web Token (JWT), then use that token to manage their own notes.
 
-Built for **Lab 2: Secure Record Storage**.
+Built for **Lab 14.2: Secure Record Storage**.
 
 ## Features
 
