@@ -16,8 +16,8 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(morgan("dev")); 
 
-const notesRouter = require("./routes/api/noteRoutes.js");
-app.use("/api/notes", notesRouter);
+const usersRouter = require("./routes/api/userRoutes.js");
+app.use("/api/users", usersRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on http://localhost:${PORT}`);
