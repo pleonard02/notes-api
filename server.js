@@ -19,6 +19,9 @@ app.use(morgan("dev"));
 const usersRouter = require("./routes/api/userRoutes.js");
 app.use("/api/users", usersRouter);
 
+const notesRouter = require("./routes/api/noteRoutes.js");
+app.use("/api/notes", notesRouter);
+
 app.listen(PORT, () => {
     console.log(`Server is listening on http://localhost:${PORT}`);
 });
